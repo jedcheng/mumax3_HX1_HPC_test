@@ -165,7 +165,7 @@ $config SetValue thread_count 128  ;# Replace '4' with desired thread count.
 ## depend on the compiler).  Note: The cpu_arch selection below must
 ## support the desired sse_level.  In particular, on 64-bit systems
 ## cpu_arch == generic supports only SSE 2 or lower.
-#$config SetValue sse_level 4  ;# Replace '2' with desired level
+$config SetValue sse_level 4  ;# Replace '2' with desired level
 #
 ## Use FMA (fused multiply-add) intrinsics?  If so, specify either "3"
 ## for three argument intrinsics or "4" for four argument intrinsics.
