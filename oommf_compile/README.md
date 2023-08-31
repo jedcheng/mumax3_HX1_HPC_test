@@ -70,7 +70,7 @@ qsub -q hx test_run.sh
 
 ## Performance Note
 
-As I suggested numerous times, 3D FFT at large scale is seriously bottlenecked by memory bandwidth instead of compute. OOMMF on HX1 can go head-to-head with an Nvidia Tesla T4 (8.141 TFLOPS, 320 GB/s) running the standard problem 4 at 100nmx1000nm with Mumax3 in terms of performance. But got demolished when I switched to an Nvidia Tesla V100 (15.67 TFLOPS, 900 GB/s) that ran 2-4 times faster. 
+As I suggested numerous times, 3D FFT at large scale is seriously bottlenecked by memory bandwidth instead of compute. OOMMF on HX1 can go head-to-head with an Nvidia Tesla T4 (8.141 TFLOPS, 320 GB/s) running the standard problem 4 at 1000nmx1000nm with Mumax3 in terms of performance. But got demolished when I switched to an Nvidia Tesla V100 (15.67 TFLOPS, 900 GB/s) that ran 2-4 times faster. 
 
 
 
