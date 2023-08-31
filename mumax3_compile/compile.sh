@@ -8,6 +8,7 @@ module load buildenv/default-foss-2022a
 module load CUDA/12.2.0
 
 cd $HOME/3
+make realclean
 make CUDA_CC=80
 cd cmd/mumax3
 go install
