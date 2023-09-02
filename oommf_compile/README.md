@@ -22,7 +22,7 @@ mv linux-x86_64.tcl oommf/config/platforms/
 ```
 
 Note:
-The CPU nodes do not have hyperthreading enabled (i.e 64 threads only). But OOMMF typically uses 50% of each thread, so we can use 128 threads to fully utilise the CPU. I observed no difference between setting the number of threads to 64 or 128.
+The CPU nodes do not have hyperthreading enabled (i.e 64 threads only). But OOMMF typically uses 50% of each thread, so we can use 128 threads to fully utilise the CPU. In reality, I observed no performance difference between setting the number of threads to 64 or 128 when running the compiled binary on a dual socket CPU node.
 
 
 
